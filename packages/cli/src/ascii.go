@@ -7,7 +7,7 @@ import (
 
 func main() {
 	fmt.Println("Hello, World!")
-	dat, err := os.ReadFile("src/cow.txt")
+	dat, err := os.ReadFile("../ascii/assets/cow.txt")
 	check(err)
 	fmt.Print(string(dat))
 }
