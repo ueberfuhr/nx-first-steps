@@ -1,8 +1,8 @@
-var cowsay = require('cowsay');
-var { message } = require('../messages');
+const cowsay = require('cowsay');
+const messages = require('../messages');
 
 console.log(
   cowsay.say({
-    text: message,
+    text: messages.message,
   })
 );
